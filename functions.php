@@ -111,6 +111,6 @@ add_action( 'widgets_init', 'theme_name_all_widgets_setup' );
 // widget shorcode support
 add_filter('widget_text', 'do_shortcode'); 
 
-// require get_template_directory() . '/inc/template-tags.php';
+// require get_template_directory() . '/inc/template-file.php';
 
 
